@@ -306,7 +306,21 @@ def run(self):
   #3.安装vlc这个包
   pacman -S vlc
   ```
+
+- #### VirtualBox Kernel driver not installed (rc=-1908)
+  > uname -a
+
+  它将显示类似该Linux用户4.6 .0-1-MANJARO ＃1 SMP PREEMPT的内容Mon May 16 02:44:59 2016 x86_64 GNU / Linux
+
+  内核版本以粗体显示，因此请为您的内核号安装virtualbox主机模块，以上面显示的内容替换46。
   
+  > sudo pacman -S linux46-virtualbox-host-modules
+
+  现在加载您的virtualbox模块
+
+  > sudo /sbin/rcvboxdrv setup
+
+  Virtualbox现在应该可以正常运行-否则，请使用pamac并卸载与virtualbox相关的任何内容，然后安装“ virtualbox”软件包，如果您告诉它所使用的内核版本，它将为您完成以上操作
 
 ## 9. 参考文档
 
