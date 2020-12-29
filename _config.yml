@@ -7,13 +7,13 @@ title: 蒙珣的博客
 subtitle: 
 description: 
 keywords: 
-author: William
+author: 蒙珣
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://austinwilliam117.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
