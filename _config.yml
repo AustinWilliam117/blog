@@ -146,3 +146,10 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+
+# Algolia Search API Key
+algolia:
+  applicationID: 'T9WJKT9H5R'
+  apiKey: '06e484ce2244591870f21358a6233fa5'
+  indexName: 'Search'

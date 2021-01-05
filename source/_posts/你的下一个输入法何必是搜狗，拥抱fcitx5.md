@@ -1,8 +1,8 @@
 ---
 title: 你的下一个输入法何必是搜狗，拥抱fcitx5
 date: 2020-12-28 13:28:21
-tags: ["Linux","fcitx5","输入法"]
-categories: ["Linux","输入法"]
+tags: ["fcitx5","输入法"]
+categories: ["Linux"]
 ---
 
 ## fcitx5的安装

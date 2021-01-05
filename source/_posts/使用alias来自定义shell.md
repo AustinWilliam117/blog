@@ -1,7 +1,7 @@
 ---
 title: 使用alias来自定义shell
 date: 2019-10-23 20:22:55
-tags: ["terminal","shell"]
+tags: ["terminal","zsh"]
 categories: ["Linux","shell"]
 ---
 

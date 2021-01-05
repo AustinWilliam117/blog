@@ -1,7 +1,7 @@
 ---
 title: KDE延时壁纸
 date: 2019-11-07 17:48:41
-tags: ["KDE","壁纸"]
+tags: ["延时壁纸"]
 categories: ["Linux","KDE"]
 thumbnail: /gallery/thumbnails/christopher.jpg
 ---

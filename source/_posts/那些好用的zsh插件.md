@@ -1,8 +1,8 @@
 ---
 title: 那些好用的zsh插件
 date: 2020-12-29 19:05:50
-tags: ["Zsh"]
-categories: ["terminal"]
+tags: ["terminal","zsh"]
+categories: ["Linux","shell"]
 ---
 
 ## autojump

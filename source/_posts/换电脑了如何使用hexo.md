@@ -1,8 +1,8 @@
 ---
 title: 换电脑了如何使用hexo
 date: 2020-12-24 21:19:51
-tags: ["Linux","hexo"]
-categories: ["Linux","hexo"]
+tags: ["hexo"]
+categories: ["Linux"]
 ---
 
 ## 前言
