@@ -1,7 +1,7 @@
 ---
 title: Manjaro安装笔记
 date: 2019-10-20 00:11:44
-tags: ["Mnajaro"]
+tags: ["Manjaro"]
 categories: ["Linux"]
 thumbnail: /gallery/thumbnails/Screenshot_20191019_201719.png
 ---
