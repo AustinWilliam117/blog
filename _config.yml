@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # ApGply to the whole site
-  # exclude:
+  exclude:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -153,3 +153,6 @@ algolia:
   applicationID: 'T9WJKT9H5R'
   apiKey: '06e484ce2244591870f21358a6233fa5'
   indexName: 'Search'
+
+aplayer:
+  meting: true
