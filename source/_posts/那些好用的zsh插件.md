@@ -21,14 +21,18 @@ cd autojump
 ./install.py or ./uninstall.py
 ```
 
+**安装后会提示你将代码写入.zshrc或者.bashrc**，写入后在你第二次再打开文件时，就可以在任意路径下直接`j folder`就行了
+
 <!-- more -->
 
-#### 自动安装arch用户
+#### arch用户安装autojump（有些小问题不推荐新手）
 > sudo pacman -S autojump
 
-在~/.zshrc最后一行写入
-```shell
-#autojump
+
+安装后同样会提示将代码写入.zshrc或者.bashrc，按提示为标准
+
+```shell 
+#autojump 参考代码
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 ```
 
