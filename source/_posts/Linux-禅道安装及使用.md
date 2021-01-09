@@ -9,10 +9,13 @@ Linux一键安装包内置了apache， php， mysql这些应用程序，只需�
 
 Linux一键安装包分为32位和64位两个包，请大家根据操作系统的情况下载相应的包。
 
+
 ## 安装
+
 1. 将禅道企业版Linux一键安装包直接解压到/opt目录下， 不要 解压到别的目录再拷贝到/opt/，因为这样会导致文件的所有者和读写权限改变， 也不要解压后把整个目录777权限 。
 
     可以使用命令： tar -zxvf  ZenTaoPMS.Biz1.0.zbox_64.tar.gz -C /opt
+<!--more-->    
 
 2. 启动程序(建议使用root启动)
 ```shell
@@ -39,3 +42,4 @@ Linux一键安装包分为32位和64位两个包，请大家根据操作系统�
 ## 参考文档
 
 1. [禅道企业版使用帮助-Linux一键安装包安装](https://www.zentao.net/book/zentaobizhelp/281.html)
+
