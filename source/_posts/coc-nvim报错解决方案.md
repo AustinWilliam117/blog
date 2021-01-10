@@ -2,7 +2,7 @@
 title: coc.nvim报错解决方案
 date: 2019-10-22 18:28:06
 tags: ["terminal","zsh"]
-categories: ["Linux","shell"]
+categories: ["Linux"]
 ---
 
 #### 安装coc.nvim时 报[coc.nvim] javascript file not found 错误的解决方案
