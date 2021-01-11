@@ -3,7 +3,7 @@ title: KDE延时壁纸
 date: 2019-11-07 17:48:41
 tags: ["延时壁纸"]
 categories: ["Linux","KDE"]
-thumbnail: /gallery/thumbnails/christopher.jpg
+thumbnail: ../gallery/thumbnails/christopher.jpg
 ---
 
 原文: https://blog.brucezhang.cf/2018/12/07/kde-dynamic-wallpaper.html

@@ -10,6 +10,7 @@ categories: ["Linux"]
 
 ## 算数运算符
 
+
 | 算数运算符 | 说明   |
 | ---------- | ------ |
 | +          | 加     |
@@ -22,7 +23,7 @@ categories: ["Linux"]
 | !=         | 不相等 |
 
 <br>  
-
+<!--more-->
 ```shell
 #!/bin/bash
 
