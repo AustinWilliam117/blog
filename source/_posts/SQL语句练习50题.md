@@ -5,8 +5,8 @@ tags: ["MySQL"]
 categories: ["SQL"]
 ---
 
+原文：知乎小番茄[SQL面试必会50题](https://zhuanlan.zhihu.com/p/43289968)
 转载: 启明星的指引 [sql语句练习50题(Mysql版)](https://blog.csdn.net/fashion2014/article/details/78826299)
-
 
 ## 测试数据
 

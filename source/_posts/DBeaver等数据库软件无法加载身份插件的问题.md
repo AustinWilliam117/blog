@@ -16,5 +16,5 @@ java.sql.SQLException: Unable to load authentication plugin 'caching_sha2_passwo
 参考 https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
 
 创建新用户和密码参考sql：
-> CREATE USER 'yourusername'@'localhost'IDENTIFIED WITH mysql_native_password BY 'youpassword';
+> CREATE USER 'yourusername'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
 

@@ -2,7 +2,7 @@
 title: Linux 禅道安装及使用
 date: 2021-01-09 14:24:51
 tags: ["禅道"]
-categories: ["Linux"]
+categories: ["测试软件"]
 ---
 
 Linux一键安装包内置了apache， php， mysql这些应用程序，只需要下载解压缩即可运行禅道企业版。
