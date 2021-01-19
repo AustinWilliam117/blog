@@ -17,3 +17,7 @@ ssh命令
 > ssh username@remote_ip 
 
 之后输入密码即可
+
+ssh连接失败
+
+> ssh-keygen -R 服务器地址
