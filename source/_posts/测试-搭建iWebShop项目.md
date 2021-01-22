@@ -7,9 +7,9 @@ categories: ["软件测试"]
 
 目录
 
-- [about](https://mengxun.club/2021/01/21/测试-搭建iWebShop项目/#about)
-- [配置数据库](https://mengxun.club/2021/01/21/测试-搭建iWebShop项目/#配置数据库)
-- [Centos配置LNMP环境并配置iwebshop项目](https://mengxun.club/2021/01/21/测试-搭建iWebShop项目/#centos配置lnmp环境并配置iwebshop项目)
+- [about](#about)
+- [配置数据库](#配置数据库)
+- [Centos配置LNMP环境并配置iwebshop项目](#centos配置lnmp环境并配置iwebshop项目)
 
 
 
@@ -84,31 +84,30 @@ root1234
 [root@CS2 home]# wget http://soft.vpser.net/lnmp/lnmp1.6.tar.gz -cO lnmp1.6.tar.gz && tar zxf lnmp1.6.tar.gz && cd lnmp1.6 && ./install.sh lnmp
 ```
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420171659460-2144335367.png)
+![img](pic/2021-01-21_23-44.png)
 
 1. 输入数据库root账户的密码`1234`:
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420171915429-1920998357.png)
+![img](pic/2021-01-21_23-45.png)
 
 1. 询问是否需要启⽤MySQL InnoDB，InnoDB引擎默认为开启，⼀般建议开启，直接回⻋或输⼊ y ，如果确定确实不需要该引擎可以输⼊ n，(MySQL 5.7+版本⽆法关闭InnoDB),输⼊完成，回⻋进⼊下⼀步：
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420172110221-1771626088.png)
+![img](pic/2021-01-21_23-45_1.png)
 
 1. 选择PHP版本，这里我选择默认。
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420172230488-98259218.png)
+![img](pic/2021-01-21_23-46.png)
 
 1. 内存分配器选项，默认不安装内存分配器。
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420172420952-694593451.png)
+![img](pic/2021-01-21_23-46_1.png)
 
-1. 按任意键进行安装。
+1. 按任意键进行安装。</br>
 
-![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200420172523417-2060516013.png)
-然后就是漫长的等待了.....请保持你的网络连接！
+然后就是漫长的等待了.....请保持你的网络连接！</br>
 
-1. 完事之后，LNMP环境算是搭建完毕，默认监听80端口，你可以访问你的服务器`ip:80`来访问：
-   ![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200518180623620-496522388.png)
+1. 完事之后，LNMP环境算是搭建完毕，默认监听80端口，你可以访问你的服务器`ip:80`来访问：</br>
+
 2. 现在，你可以将iwebshop解压后的目录拷贝到`/home/wwwroot/default`，如下所示：
 
 ```
@@ -125,22 +124,22 @@ index.html  iwebshop  lnmp.gif  ocp.php  phpinfo.php  phpmyadmin  p.php
 ```
 
 1. 现在可以访问`ip:80/iwebshop`地址，然后会自动的跳转到安装目录了，勾选许可点击下一步：
-   ![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200520095829666-331083494.png)
+   ![img](pic/47.png)
 2. 可以看到各个配置都是没有问题的，直接点击下一步：
-   ![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200520100500934-1350036000.png)
+   ![img](pic/48.png)
 3. 参照下图配置相关数据参数和管理员密码，并牢记密码
 
-![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200520104011650-842018076.png)
+![img](pic/49.png)
 
 可能会遇到安装失败的情况，在这个页面就多尝试几次，只要你的数据库配置的没有问题。
 
 1. 安装完成，可以选择到前台和到后台进入网站了。
 
-![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200520104346404-1080486115.png)
+![img](pic/50.png)
 
 1. 可以使用admin账号(密码是：root1234)登录到后台：
 
-![img](https://img2020.cnblogs.com/blog/1168165/202005/1168165-20200520105147623-737101155.png)
+![img](pic/51.png)
 
 后续的配置可以根据你的情况来配置了。
 

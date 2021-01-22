@@ -7,15 +7,15 @@ categories: ["Linux"]
 
 目录
 
-- [before](https://mengxun.club/2021/01/21/Docker环境配置/#before)
-- [for Centos](https://mengxun.club/2021/01/21/Docker环境配置/#for-centos)
+- [before](#before)
+- [for Centos](#for-centos)
 - for Ubuntu
-  - [安装Ubuntu维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装ubuntu维护的版本)
-  - [安装Docker维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装docker维护的版本)
-- [for Mac](https://mengxun.club/2021/01/21/Docker环境配置/#for-mac)
-- [for Windows](https://mengxun.club/2021/01/21/Docker环境配置/#for-windows)
+  - [安装Ubuntu维护的版本](#安装ubuntu维护的版本)
+  - [安装Docker维护的版本](#安装docker维护的版本)
+- [for Mac](#for-mac)
+- [for Windows](#for-windows)
 - 可能遇到的问题
-  - [下载镜像超时](https://mengxun.club/2021/01/21/Docker环境配置/#下载镜像超时)
+  - [下载镜像超时](#下载镜像超时)
 
 
 <!--more-->
@@ -25,7 +25,7 @@ categories: ["Linux"]
 
 下面这张图展示了在不同平台docker是如何运行的，OS X和Windows都是借助于虚拟机来运行，而Linux直接运行在宿主机上。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150234059-702119202.bmp)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150234059-702119202.bmp)
+![img](1.bmp)
 
 Linux无需多言，这里需要简单的介绍一下win和mac中所需的虚拟机。
 
@@ -243,29 +243,29 @@ $ sudo docker version
 
 去https://www.docker.com/products/docker-desktop下载或者使用开头的安装包。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150440586-1241490978.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150440586-1241490978.png)
+![img](2.png)
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150456069-1582726282.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150456069-1582726282.png)
+![img](3.png)
 
 **安装**
 
 - 直接拖拽安装。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150523459-2080932066.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150523459-2080932066.png)
+![img](4.png)
 
 - 然后启动它。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150538390-508806579.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150538390-508806579.png)
+![img](5.png)
 
 启动中：
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150553739-487916499.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150553739-487916499.png)
+![img](6.png)
 
 启动后：
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150608469-404116108.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150608469-404116108.png)
+![img](7.png)
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150620419-1374352363.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150620419-1374352363.png)
+![img](8.png)]
 
 **测试**
 
@@ -276,7 +276,7 @@ docker version
 docker run ubuntu echo "Hello World"
 ```
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150635947-2127023928.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150635947-2127023928.png)
+![img](9.png)
 
 OK，完事了。
 
@@ -294,22 +294,22 @@ windows7及以上系统
 
 - 去https://www.docker.com/products/docker-desktop下载。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150712473-984511995.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150712473-984511995.png)
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150723636-995811009.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150723636-995811009.png)
+![img](10.png)
+![img](11.png)
 
 **安装**
 
 - 下载到本地是exe文件，双击exe文件进行安装和配置。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150743383-1683621203.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150743383-1683621203.png)
+![img](12.png)
 
 - 重启。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150757014-1857201498.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150757014-1857201498.png)
+![img](13.png)
 
 当你重启后，打开桌面快捷方式，会发现任务栏多了一个docker图标。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150804491-1736837661.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150804491-1736837661.png)
+![img](14.png)
 
 **运行**
 
@@ -328,15 +328,15 @@ docker version
 
 由于docker默认的镜像源是国外的，很可能遇到下载失败的问题，比如这样的：
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150817128-1525436794.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150817128-1525436794.png)
+![img](17.png)
 
 解决办法，点击任务栏docker，然后点击settings。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150824019-87259280.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150824019-87259280.png)
+![img](15.png)
 
 然后在`Docker Engine`选项将`https://docker.mirrors.ustc.edu.cn/`添加到`registry-mirrors`中去。
 
-[![img](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150831808-138678168.png)](https://img2020.cnblogs.com/blog/1168165/202004/1168165-20200402150831808-138678168.png)
+![img](16.png)
 
 下面列出国内的常用源：
 
@@ -349,12 +349,29 @@ docker version
 
 ------
 
+```shell
+# 设置国内镜像
+mkdir -p /etc/docker
+sudo vim /etc/docker/daemon.json
+
+#写入以下内容
+
+{
+  "registry-mirrors": ["<your accelerate address>"]
+}
+
+#以上操作后重启一下 Docker
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
 see also：
 
-[docker：CentOS安装 docker和默认安装目录](https://blog.csdn.net/weixin_38750084/article/details/90317730)
-[如何进入、退出docker的container](https://blog.csdn.net/dongdong9223/article/details/52998375)
-[Centos7上安装docker](https://www.cnblogs.com/yufeng218/p/8370670.html)
-[Ubuntu16.04安装docker](https://www.cnblogs.com/lighten/p/6034984.html)
+[docker：CentOS安装 docker和默认安装目录](https://blog.csdn.net/weixin_38750084/article/details/90317730)</br>
+[如何进入、退出docker的container](https://blog.csdn.net/dongdong9223/article/details/52998375)</br>
+[Centos7上安装docker](https://www.cnblogs.com/yufeng218/p/8370670.html)</br>
+[Ubuntu16.04安装docker](https://www.cnblogs.com/lighten/p/6034984.html)</br>
 https://blog.csdn.net/BigData_Mining/article/details/87869147
 
 作者： 听雨危楼
