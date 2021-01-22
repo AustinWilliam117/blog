@@ -8,12 +8,12 @@ categories: ["Linux"]
 目录
 
 - [before](#before)
-- [for Centos](#for-centos)
+- [for-Centos](#for-Centos)
 - for Ubuntu
-  - [安装Ubuntu维护的版本](#安装ubuntu维护的版本)
-  - [安装Docker维护的版本](#安装docker维护的版本)
-- [for Mac](#for-mac)
-- [for Windows](#for-windows)
+  - [安装Ubuntu维护的版本](#安装Ubuntu维护的版本)
+  - [安装Docker维护的版本](#安装Docker维护的版本)
+- [for-Mac](#for-Mac)
+- [for-Windows](#for-Windows)
 - 可能遇到的问题
   - [下载镜像超时](#下载镜像超时)
 
@@ -42,7 +42,7 @@ Linux无需多言，这里需要简单的介绍一下win和mac中所需的虚拟
 
 接下来我们来看看各平台是如何安装和运行docker的。
 
-# [for Centos](https://mengxun.club/2021/01/21/Docker环境配置/#for-centos)
+# [for-Centos](https://mengxun.club/2021/01/21/Docker环境配置/#for-Centos)
 
 **可选的操作：查看内核版本**
 
@@ -172,7 +172,7 @@ $ ls -l /sys/class/misc/device-mapper
 - 安装Ubuntu维护的版本，不推荐
 - 安装Docker维护的版本，推荐
 
-## [安装Ubuntu维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装ubuntu维护的版本)
+## [安装Ubuntu维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装Ubuntu维护的版本)
 
 使用`apt-get`命令安装，使用`source`命令来更新配置：
 
@@ -189,7 +189,7 @@ $ sudo docker.io version
 
 注意，这种安装方式安装的docker名字叫做`docker.io`；另外，这种方式安装的docker的版本较低，所以，我们推荐安装docker维护的版本。
 
-## [安装Docker维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装docker维护的版本)
+## [安装Docker维护的版本](https://mengxun.club/2021/01/21/Docker环境配置/#安装Docker维护的版本)
 
 由于apt官方库里的docker版本可能比较旧，所以先卸载可能存在的旧版本：
 
@@ -235,7 +235,7 @@ $ sudo docker version
 
 注意，这种方式安装的docker，就叫docker
 
-# [for Mac](https://mengxun.club/2021/01/21/Docker环境配置/#for-mac)
+# [for-Mac](https://mengxun.club/2021/01/21/Docker环境配置/#for-Mac)
 
 由开头的图我们知道，Mac中运行docker也是要借助虚拟机的，所以，来看如何安装吧。
 
@@ -280,7 +280,7 @@ docker run ubuntu echo "Hello World"
 
 OK，完事了。
 
-# [for Windows](https://mengxun.club/2021/01/21/Docker环境配置/#for-windows)
+# [for-Windows](https://mengxun.club/2021/01/21/Docker环境配置/#for-Windows)
 
 由开头的图我们知道，Windows中运行docker也是要借助虚拟机的，所以，来看如何安装吧。
 
