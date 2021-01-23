@@ -10,7 +10,7 @@ categories: ["软件测试"]
 - [about](#about)
 - [配置数据库](#配置数据库)
 - [Centos配置LNMP环境并配置iwebshop项目](#centos配置lnmp环境并配置iwebshop项目)
-
+- [使用LNMP](#使用LNMP)
 
 
 # [about](https://mengxun.club/2021/01/21/测试-搭建iWebShop项目/#about)
@@ -142,6 +142,20 @@ index.html  iwebshop  lnmp.gif  ocp.php  phpinfo.php  phpmyadmin  p.php
 ![img](pic/51.png)
 
 后续的配置可以根据你的情况来配置了。
+
+
+# [使用LNMP](https://mengxun.club/2021/01/21/测试-搭建iWebShop项目/#使用LNMP])
+
+```txt
+Usage: lnmp {start|stop|reload|restart|kill|status}
+Usage: lnmp {nginx|mysql|mariadb|php-fpm|pureftpd} {start|stop|reload|restart|kill|status}
+Usage: lnmp vhost {add|list|del}
+Usage: lnmp database {add|list|edit|del}
+Usage: lnmp ftp {add|list|edit|del|show}
+Usage: lnmp ssl add
+Usage: lnmp {dnsssl|dns} {cx|ali|cf|dp|he|gd|aws}
+Usage: lnmp onlyssl {cx|ali|cf|dp|he|gd|aws}
+```
 
 ------
 
