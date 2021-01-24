@@ -5,7 +5,6 @@ tags: ["terminal"]
 categories: ["Linux"]
 ---
 
-
 虚拟机网络设置为桥接模式
 
 > systemctl enable sshd.service 开机启动
@@ -21,3 +20,5 @@ ssh命令
 ssh连接失败
 
 > ssh-keygen -R 服务器地址
+
+
