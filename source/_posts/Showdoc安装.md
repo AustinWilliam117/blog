@@ -2,7 +2,7 @@
 title: Showdoc安装
 date: 2021-01-26 13:10:43
 tags: ["Showdoc"]
-categories: ["软件测试"]
+categories: ["测试软件"]
 ---
 
 ### 前言
