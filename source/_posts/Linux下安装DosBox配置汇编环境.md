@@ -36,12 +36,12 @@ sudo pacman -S dosbox
 ~$ mkdir MASM
 ~$ mkdir ASM
 ~$ mkdir FILE
-12345
 ```
 
 **然后我们将下载的文件解压，将里面的文件全部复制到新建的MASM文件夹内，或者直接将解压的MASM文件夹连同里面的文件一同复制到ms-dos内，选择合并。**
 
 ### 四、
+
 
 **(1) 然后我们来配置环境和自动挂载，首先在终端命令行输入以下代码：**
 
@@ -55,14 +55,14 @@ sudo pacman -S dosbox
 mount c ~/ms-dos
 path=%path%;\MASM
 c:
-123
 ```
 
 **(3) 接着我们打开DosBox,输入如下代码：**
 
 ```
 c:>config -writeconf .dosbox/dosbox-0.74-3.conf
-1
+
 ```
 
 **这样我们便配置成功！**
+
