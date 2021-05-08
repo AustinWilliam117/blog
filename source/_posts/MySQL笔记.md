@@ -65,6 +65,56 @@ mysql -h175.24.117.226 -P3307 -uroot -p
 mysql -uroot -p
 ```
 
+### 搭建练习环境
+```sql
+-- 创建表
+CREATE TABLE user_info (
+	user_id INT NOT NULL AUTO_INCREMENT,
+	user_name CHAR ( 10 ),
+	password VARCHAR ( 10 ),
+	user_nick VARCHAR ( 10 ),
+	card_num BIGINT,
+	PRIMARY KEY ( user_id ) 
+);
+
+-- 	user_nick长度不够，修改user_nick的长度再重新插入数据
+ALTER TABLE user_info MODIFY user_nick VARCHAR ( 20 );
+
+-- 插入数据
+INSERT INTO user_info ( user_id, user_name, PASSWORD, user_nick, card_num )
+VALUES
+	( 1, 'zhangsan', 'abc123', 'zhangsanfeng', 124567894651329785 ),
+	( 2, 'lisi', '122bbb', 'limochou', 124567894651324567 ),
+	( 3, 'wangwu', '123aaa', 'wangbaiwan', 214567894651324567 ),
+	( 4, 'liuqi', '12aaa', 'liuchuanfeng', 214563356651324567 ),
+	( 5, 'zhangliu', '12aaa', 'zhangwuji', 214563356658966567 );
+	
+-- 创建订单表
+CREATE TABLE order_info (
+	order_id INT UNSIGNED ZEROFILL NOT NULL,
+	price DECIMAL ( 10, 2 ) NOT NULL,
+	order_status VARCHAR ( 30 ) NOT NULL,
+	product_id INT NOT NULL,
+	created datetime DEFAULT "2019-01-01 00:00:00",
+	user_id INT NOT NULL,
+PRIMARY KEY ( order_id ) 
+);
+
+-- 插入数据
+INSERT INTO order_info
+VALUES
+	( 1, 4.99, 'pay', 1001, '2019-09-25 10:25:26', 1 ),
+	( 2, 9.99, 'nopay', 1002, '2019-09-26 10:25:26', 1 ),
+	( 3, 4.99, 'pay', 1001, '2019-09-25 10:25:26', 2 ),
+	( 4, 9.99, 'nopay', 1002, '2019-09-24 10:25:26', 2 ),
+	( 5, 19.99, 'pay', 1003, '2019-09-26 10:25:26', 2 ),
+	( 6, 4.99, 'pay', 1001, '2019-09-25 10:25:26', 3 ),
+	( 7, 4.99, 'pay', 1001, '2019-09-25 10:25:26', 4 ),
+	( 8, 9.99, 'pay', 1002, '2019-09-25 10:25:26', 4 ),
+	( 9, 19.99, 'pay', 1003, '2019-09-26 10:25:26', 4 ),
+	( 10, 29.99, 'pay', 1002, '2019-09-26 10:25:26', 6 );
+```
+
 ### 创建、查看、删除、使用数据库
 
 ```sql
