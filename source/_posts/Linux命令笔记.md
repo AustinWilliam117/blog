@@ -5,4 +5,4 @@ tags: ["Linux命令"]
 categories: ["Linux"]
 ---
 
-[点击下载Linux命令](../download/pdf/Linux命令.pdf)
+[点击下载Linux命令](/download/pdf/Linux命令.pdf)
