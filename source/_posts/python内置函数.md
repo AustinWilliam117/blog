@@ -5,6 +5,12 @@ tags: ""
 categories: ["Python"]
 ---
 
+1. time
+2. os
+3. sys
+4. classmethod 修饰符
+5. JSON字典的序列化与反序列化
+
 ### time内置函数
 
 <!--more--> 
@@ -168,7 +174,34 @@ from 包下的文件名 import 函数
 from 包下的文件名 import *
 ```
 
+### classmethod 修饰符
 
+classmethod 修饰符对应的函数不需要实例化，不需要 self 参数，但第一个参数需要是表示自身类的 cls 参数，可以来调用类的属性，类的方法，实例化对象等。
+
+```python
+class a(object):
+    bar = 1
+    
+    def func1(cls):
+        print('foo')
+
+    @classmethod
+    def func2(cls):
+        print('func2')
+        print(cls.bar)
+
+        cls().func1()   #调用foo方法
+
+
+a.func2()               #不需要实例化
+```
+
+结果
+```python
+func2
+1
+foo
+```
 
 ### JSON字典的序列化与反序列化
 

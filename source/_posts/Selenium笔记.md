@@ -1,7 +1,7 @@
 ---
 title: Selenium笔记
 date: 2021-05-04 21:41:12
-tags: ["Selenium"]
+tags: ["自动化测试"]
 categories: ["软件测试"]
 ---
 
