@@ -1,7 +1,8 @@
 ---
 title: unittest框架详解
 date: 2021-06-14 11:18:08
-tags:
+tags: ["自动化测试"]
+categories: ["软件测试"]
 ---
 
 UNITTEST内容
